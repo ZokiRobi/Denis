@@ -27,9 +27,9 @@ export class ProjekatComponent implements OnInit {
 
   setImages() {
       let images: Image[]= [];
-      for(let i=0;i<this.projekat.files.length;i++){
+      for(let i=0;i<this.projekat.Files.length;i++){
         images.push(new Image(i,{
-          img: this.projekat.files[i]
+          img: this.projekat.Files[i]
         }));
       }
       return images;

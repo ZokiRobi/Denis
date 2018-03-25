@@ -9,7 +9,7 @@
     </div>
 
     <div class="col-10  col-sm-9 col-md-6">
-      <div *ngFor="let projekat of projekti" class="" id="projekat">
+      <div *ngFor="let projekat of projekti;let i=index" class="" id="projekat">
         <h4 class="text-center pt-3" id="{{projekat.Name}}">{{ projekat.Name }}</h4>
         <app-projekat [projekat]="projekat"></app-projekat>
       </div>
