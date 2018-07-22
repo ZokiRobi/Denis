@@ -79,3 +79,14 @@ footer{
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
+.link{
+	text-decoration: none;
+	color: rgb(4, 32, 32);
+}
+.link:hover{
+	text-decoration: underline;
+}
+.img-social{
+	width: 20px;
+	height: 20px;
+}
