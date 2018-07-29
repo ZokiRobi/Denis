@@ -1,6 +1,7 @@
 div.container-fluid{
 	background-color: #9eadbc;
 	min-height: 100%;
+	padding-top: 60px;
 }
 
 footer{

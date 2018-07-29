@@ -33,6 +33,8 @@ export class HomeComponent implements OnInit, OnDestroy{
         if (offset === height) {
         }
       }
+        var element:any = document.getElementById('myVideo');
+        element.muted = "muted";
   }
   ngAfterViewInit(){
   }

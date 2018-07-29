@@ -1,7 +1,16 @@
-<section id="cover" class="wow slideInLeft" data-wow-duration="1s">
+<div class="container-fluid" id="video" >
+    <div class="row">
+        <div class="col- col-sm-12 col-md-12 col-lg-12">
+            <section id="cover" class="d-flex justify-content-center">
+                <video autoplay id="myVideo" class="embed-responsive embed-responsive-21by9">
+                    <source src="../../assets/video.mp4" type="video/mp4">
+                </video>
+            </section>
+        </div>
+    </div>
+</div>
 
-</section>
-<section id="carousel" class="wow slideInRight" data-wow-duration="1s">
+<section id="carousel" class="wow slideInRight " data-wow-duration="1s">
     <carousel>
         <slide>
             <img src="https://res.cloudinary.com/dfz4fntwj/image/upload/v1521995865/AS_Photo_-_1.jpg" alt="AS_photo" style="display: block; width: 100%;max-height:800px">
@@ -69,7 +78,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-1 offset-sm-10">
-                <a [ngx-scroll-to]="'#nav-main'" class="btn btn-secondary" name="Top" >&uarr;</a>
+            <a [ngx-scroll-to]="'#top'" class="btn btn-secondary" name="Top">&uarr;</a>
         </div>
     </div>
 </div>
